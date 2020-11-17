@@ -41,8 +41,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+  margin: 40px 0 0;
+  color: var(--heading-lead-color);
+}
+
 h3 {
   margin: 40px 0 0;
+  color: var(--heading-head-color);
 }
 ul {
   list-style-type: none;
